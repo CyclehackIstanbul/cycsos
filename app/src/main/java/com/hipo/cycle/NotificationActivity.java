@@ -52,7 +52,7 @@ public class NotificationActivity extends BaseActivity {
     @OnClick(R.id.notificationActivityPhoneBtn)
     void call() {
         Intent callIntent = new Intent(Intent.ACTION_CALL);
-        callIntent.setData(Uri.parse("tel:" + "05378521287"));
+        callIntent.setData(Uri.parse("tel:" + "6"));
         startActivity(callIntent);
     }
     private CycleCallback<Object> notificationCallback = new CycleCallback<Object>() {
